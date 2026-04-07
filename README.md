@@ -132,6 +132,29 @@ Reports included:
 ### 🔹 Dashboard
 ![Dashboard View](screenshots/Project2_dashboard.png)
 
+---
+
+### 🧠 Learnings
+- Resolved conflicts between Business Rules and Assignment Rules
+- Implemented SLA lifecycle with business conditions
+- Used GlideRecord for dynamic data retrieval
+- Built dashboards for monitoring incident performance
+
+---
+
+### 🛠️ Technologies Used
+- ServiceNow
+- JavaScript (GlideRecord)
+- ITSM Modules
+
+---
+
+## 👩‍💻 Author
+
+**Gauravi Thakur**  
+MBA (Analytics & Data Science)  
+Aspiring ServiceNow Developer / Data Analyst
+
 
 
 
