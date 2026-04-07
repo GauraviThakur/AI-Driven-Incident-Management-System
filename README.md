@@ -114,6 +114,11 @@ Reports included:
 
 ---
 
+### 🔹 Event-Business Rule
+![Event Business Rule](screenshots/Event_br.png)
+
+---
+
 ### 🔹 Notification
 ![Notification](screenshots/Project2_notification.png)
 
