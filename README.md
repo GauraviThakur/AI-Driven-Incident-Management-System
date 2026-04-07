@@ -62,6 +62,59 @@ Additional configurations:
 #### Event Script:
 ```javascript
 gs.eventQueue("incident.assigned", current, current.assigned_to, "");
+```
+
+---
+
+### 🔹 4. Knowledge Base Suggestion (AI Feature)
+
+The system suggests relevant KB articles based on keywords from incident description.
+```javascript
+if (!current.short_description.nil()) {
+    var keyword = current.short_description.toString().split(" ")[0];
+
+    var gr = new GlideRecord('kb_knowledge');
+    gr.addQuery('short_description', 'CONTAINS', keyword);
+    gr.query();
+
+    if (gr.next()) {
+        gs.addInfoMessage("Suggested KB Article: " + gr.short_description);
+    }
+}
+```
+
+---
+
+### 🔹 5. Dashboard & Reports
+
+Created dashboard: AI-Driven Incident Management Dashboard
+
+Reports included:
+
+- Incidents by Priority
+- Incidents by State
+- Incidents by Assignment Group
+
+
+---
+
+### 📸 Screenshots
+### 🔹 Assignment Rules
+![Assignment Rule List](screenshots/Assignment_rules.png)
+
+### 🔹 SLA
+![SLA Definitions](screenshots/Project2_sla.png)
+
+### 🔹 Notification
+![Notification](screenshots/Project2_notification.png)
+
+
+
+
+
+
+
+
 
 
 
