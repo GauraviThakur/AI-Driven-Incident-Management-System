@@ -102,11 +102,30 @@ Reports included:
 ### 🔹 Assignment Rules
 ![Assignment Rule List](screenshots/Assignment_rules.png)
 
+---
+
 ### 🔹 SLA
 ![SLA Definitions](screenshots/Project2_sla.png)
 
+---
+
+### 🔹 Event
+![Event Registry](screenshots/Project2_event.png)
+
+---
+
 ### 🔹 Notification
 ![Notification](screenshots/Project2_notification.png)
+
+---
+
+### 🔹 Knowledge Suggestion
+![Suggestion Message](screenshots/Knowledge_base.png)
+
+---
+
+### 🔹 Dashboard
+![Dashboard View](screenshots/Project2_dashboard.png)
 
 
 
