@@ -1,7 +1,7 @@
 # 🚀 AI-Driven Incident Management System (ServiceNow)
 
 ## 📌 Overview
-This project demonstrates the implementation of an end-to-end Incident Management system using ServiceNow. It includes automation, SLA tracking, event-driven notifications, and intelligent knowledge base suggestions to improve incident resolution efficiency.
+This project demonstrates the implementation of an end-to-end Incident Management system using ServiceNow. It includes automation, SLA tracking, event-driven notifications, and intelligent knowledge base suggestions to improve incident resolution efficiently.
 
 ---
 
